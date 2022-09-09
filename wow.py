@@ -1,6 +1,6 @@
 from random import choice
 from random import sample
-print(""" Greetings! I'm Jimmy, the Classic Film Bot.""")
+print(""" Greetings! I'm James, the Classic Film Bot.""")
 print("""Pick a Genre and a Decade of release between 1960 and 1990, and I will recommend to
 you 2 movies to watch! There are ten genres and 4 decades of release to pick from. """)
 def get_classic_movies():
@@ -109,15 +109,15 @@ def get_classic_movies():
     elif GenreNDecade in "90s Romance":
         Pick = sample(Romance90s,2)
     else:
-        return "Jimmy the Classic Film Bot does not recogonize this category"
-    return(F"""Your recommended movies are '{Pick[0]}' and '{Pick[1]}'. Check them out on my internet before you watch, if you'd like.
+        return "Jimmy the Classic Robot does not recogonize this category"
+    return(F"""Your recommended movies are '{Pick[0]}' and '{Pick[1]}'. Check them out on my internet before you have watch, if you'd like.
 ENJOY, human!""")
 
-print("""\n
+print("""
 Genres: Horror, Science Fiction, Thriller, Comedy, Action, Documentary, Romance, and Anime.
-Time periods: The 1960s, 1970s, 1980s, and 1990s.\n
+Time periods: The 1960s, 1970s, 1980s, and 1990s.
 INSTRUCTIONS: Type in the 2-digit decade, followed by an "s", a space and then the genre. 
-!!EXAMPLE: If you want a science fiction movie set in the 1970s, type in '70s Science Fiction'.!!\n""")
+!!EXAMPLE: If you want a science fiction movie set in the 1970s, type in '70s Science Fiction'.!!""")
 christ = 1
 while True:
     christ = get_classic_movies()
