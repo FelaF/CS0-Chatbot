@@ -1,5 +1,12 @@
 from random import choice
 from random import sample
+
+
+RandomDictionary = {
+    "RandVal1" :"Shoes",
+    "RandVal2" :"Laptops",
+    "RandVal3" : "Curse Words"}
+
 print(""" Greetings! I'm Jimmy, the Classic Film Bot.""")
 print("""Pick a Genre and a Decade of release between 1960 and 1990, and I will recommend to
 you 2 movies to watch! There are ten genres and 4 decades of release to pick from. """)
